@@ -9,7 +9,8 @@
 using std::vector;
 
 class Invoice {
-
+public:
+    void add(Product& name, int price);
 };
 
 
