@@ -10,7 +10,7 @@ using std::vector;
 
 class Invoice {
 public:
-    void add(Product& name, int price);
+    void add(Product& name, invoice invoice);
 };
 
 
