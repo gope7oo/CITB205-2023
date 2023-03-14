@@ -7,7 +7,9 @@ using std::string;
 
 class Product {
 private:
+    string name;
     double price;
+
 public:
     Product(string name, double price);
     double getPrice();

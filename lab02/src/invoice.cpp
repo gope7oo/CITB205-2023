@@ -1,6 +1,7 @@
 #include "invoice.h"
 
 void Invoice::add(Product product, int qty) {
+    items.push_back(Item(product,quantity));
 }
 
 double Invoice::subtotal(){
