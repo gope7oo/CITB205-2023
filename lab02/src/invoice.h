@@ -10,7 +10,8 @@ using std::vector;
 
 class Invoice {
 public:
-    void add(Product& name, int price);
+    void add(Product product, int price);
+    double subtotal();
 };
 
 
