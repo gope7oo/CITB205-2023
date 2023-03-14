@@ -6,8 +6,11 @@
 using std::string;
 
 class Product {
+private:
+    double price;
 public:
     Product(string name, double price);
+    double getPrice();
 };
 
 

@@ -2,6 +2,6 @@
 
 
 double Item::total() {
-    return 0;
+    return product.getPrice() * qty;
 }
 
