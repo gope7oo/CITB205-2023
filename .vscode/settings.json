@@ -48,5 +48,6 @@
         "sstream": "cpp",
         "stdexcept": "cpp",
         "streambuf": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "${workspaceFolder}/lab01"
 }

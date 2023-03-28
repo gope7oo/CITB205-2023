@@ -14,8 +14,6 @@ private:
 public:
     void add(Product product, int price);
     double subtotal();
-private:
-    vector<item> items;
 };
 
 
